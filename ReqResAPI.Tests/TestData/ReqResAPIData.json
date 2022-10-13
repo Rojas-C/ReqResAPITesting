@@ -1,0 +1,277 @@
+﻿{
+    "GetUsers_TC12345":[
+        {
+            "id": "12345",
+            "name": "GetUsers_TC12345",
+            "content":
+            {
+                "page": 1,
+                "per_page": 6,
+                "total": 12,
+                "total_pages": 2,
+                "data": [
+                    {
+                        "id": 1,
+                        "email": "george.bluth@reqres.in",
+                        "first_name": "George",
+                        "last_name": "Bluth",
+                        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "email": "janet.weaver@reqres.in",
+                        "first_name": "Janet",
+                        "last_name": "Weaver",
+                        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+                    },
+                    {
+                        "id": 3,
+                        "email": "emma.wong@reqres.in",
+                        "first_name": "Emma",
+                        "last_name": "Wong",
+                        "avatar": "https://reqres.in/img/faces/3-image.jpg"
+                    },
+                    {
+                        "id": 4,
+                        "email": "eve.holt@reqres.in",
+                        "first_name": "Eve",
+                        "last_name": "Holt",
+                        "avatar": "https://reqres.in/img/faces/4-image.jpg"
+                    },
+                    {
+                        "id": 5,
+                        "email": "charles.morris@reqres.in",
+                        "first_name": "Charles",
+                        "last_name": "Morris",
+                        "avatar": "https://reqres.in/img/faces/5-image.jpg"
+                    },
+                    {
+                        "id": 6,
+                        "email": "tracey.ramos@reqres.in",
+                        "first_name": "Tracey",
+                        "last_name": "Ramos",
+                        "avatar": "https://reqres.in/img/faces/6-image.jpg"
+                    }
+                ],
+                "support": {
+                    "url": "https://reqres.in/#support-heading",
+                    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+                }
+            }
+        }
+    ],
+    "GetSingleUser_TC12346":[
+        {
+            "id": "12346",
+            "name": "GetSingleUser_TC12346",
+            "content":
+            {
+                "data": [
+                    {
+                        "id": 6,
+                        "email": "tracey.ramos@reqres.in",
+                        "first_name": "Tracey",
+                        "last_name": "Ramos",
+                        "avatar": "https://reqres.in/img/faces/6-image.jpg"
+                    }
+                ],
+                "support": {
+                    "url": "https://reqres.in/#support-heading",
+                    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+                }
+            }
+        }
+    ],
+    "ValidateUserNotFound_TC12347":[
+        {
+            "id": "12347",
+            "name": "ValidateUserNotFound_TC12347",
+            "content":
+            {
+                "data": [
+                    {
+                        "id": 547
+                    }
+                ]
+            }
+        }
+    ],
+    "GetUnknowns_TC12348":[
+        {
+            "id": "12348",
+            "name": "GetUnknowns_TC12348",
+            "unknownContent":
+            {
+                "page": 1,
+                "per_page": 6,
+                "total": 12,
+                "total_pages": 2,
+                "data": [
+                    {
+                        "id": 1,
+                        "name": "cerulean",
+                        "year": 2000,
+                        "color": "#98B2D1",
+                        "pantone_value": "15-4020"
+                    },
+                    {
+                        "id": 2,
+                        "name": "fuchsia rose",
+                        "year": 2001,
+                        "color": "#C74375",
+                        "pantone_value": "17-2031"
+                    },
+                    {
+                        "id": 3,
+                        "name": "true red",
+                        "year": 2002,
+                        "color": "#BF1932",
+                        "pantone_value": "19-1664"
+                    },
+                    {
+                        "id": 4,
+                        "name": "aqua sky",
+                        "year": 2003,
+                        "color": "#7BC4C4",
+                        "pantone_value": "14-4811"
+                    },
+                    {
+                        "id": 5,
+                        "name": "tigerlily",
+                        "year": 2004,
+                        "color": "#E2583E",
+                        "pantone_value": "17-1456"
+                    },
+                    {
+                        "id": 6,
+                        "name": "blue turquoise",
+                        "year": 2005,
+                        "color": "#53B0AE",
+                        "pantone_value": "15-5217"
+                    }
+                ],
+                "support": {
+                    "url": "https://reqres.in/#support-heading",
+                    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+                }
+            }
+        }
+    ],
+    "CreateUser_TC12349":[
+        {
+            "id": "12349",
+            "name": "CreateUser_TC12349",
+            "user":
+            {
+                "name": "morpheus",
+                "job": "leader"
+            },
+            "userContent":
+            {
+                "name": "morpheus",
+                "job": "leader",
+                "id": "664",
+                "createdAt": "2022-10-10T16:19:36.307Z"
+            }
+        }
+    ],
+    "PatchUser_TC12350":[
+        {
+            "id": "12350",
+            "name": "PatchUser_TC12350",
+            "user":
+            {
+                "name": "New User",
+                "job": "The leader"
+            },
+            "patchUserPayload":
+            {
+                "name": "New User Updated",
+                "job": "The leader"
+            }
+        }
+    ],
+    "GetUsers_TC12345_2":[
+        {
+            "id": "12345_2",
+            "name": "GetUsers_TC12345_2",
+            "content":
+            {
+                "page": 1,
+                "per_page": 6,
+                "total": 12,
+                "total_pages": 2,
+                "data": [
+                    {
+                        "id": 1,
+                        "email": "george.bluth@reqres.in",
+                        "first_name": "George",
+                        "last_name": "Bluth",
+                        "avatar": "https://reqres.in/img/faces/1-image.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "email": "janet.weaver@reqres.in",
+                        "first_name": "Janet",
+                        "last_name": "Weaver",
+                        "avatar": "https://reqres.in/img/faces/2-image.jpg"
+                    },
+                    {
+                        "id": 3,
+                        "email": "emma.wong@reqres.in",
+                        "first_name": "Emma",
+                        "last_name": "Wong",
+                        "avatar": "https://reqres.in/img/faces/3-image.jpg"
+                    },
+                    {
+                        "id": 4,
+                        "email": "eve.holt@reqres.in",
+                        "first_name": "Eve",
+                        "last_name": "Holt",
+                        "avatar": "https://reqres.in/img/faces/4-image.jpg"
+                    },
+                    {
+                        "id": 5,
+                        "email": "charles.morris@reqres.in",
+                        "first_name": "Charles",
+                        "last_name": "Morris",
+                        "avatar": "https://reqres.in/img/faces/5-image.jpg"
+                    },
+                    {
+                        "id": 6,
+                        "email": "tracey.ramos@reqres.in",
+                        "first_name": "Tracey",
+                        "last_name": "Ramos",
+                        "avatar": "https://reqres.in/img/faces/6-image.jpg"
+                    }
+                ],
+                "support": {
+                    "url": "https://reqres.in/#support-heading",
+                    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+                }
+            }
+        }
+    ],
+    "CreateUserNoJob_TC12351":[
+        {
+            "id": "12351",
+            "name": "CreateUserNoJob_TC12351",
+            "user":
+            {
+                "name": "morpheus"
+            },
+            "userContent":
+            {
+                "name": "morpheus",
+                "id": "664",
+                "createdAt": "2022-10-10T16:19:36.307Z"
+            }
+        }
+    ],
+    "CreateUserFakeData_TC12352":[
+        {
+            "id": "12352",
+            "name": "CreateUserFakeData_TC12352"
+        }
+    ]
+}

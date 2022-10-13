@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{8B6B0780-BA62-47CB-973D-3932E9C48993}|Default">
+  <MonoDevelop.Ide.ItemProperties.Adapter FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Adapter/Core/API/APIBase.cs">
+    <Files>
+      <File FileName="Adapter/Core/API/APIBase.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="ReqResAPITesting" expanded="True">
+            <Node name="Adapter" expanded="True" />
+            <Node name="ReqResAPI.Tests" expanded="True">
+              <Node name="Dependencies" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
